@@ -1,0 +1,12 @@
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+atomic_configure/
+bin/
+catkin_generated/
+catkin/
+devel/
+gtest/
+test_results/
+CTestConfiguration.ini/
+*.cmake
