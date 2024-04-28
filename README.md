@@ -14,9 +14,12 @@ Gazebo and ROS simulation of Mars Rover, Reach marker and fetch
 5. To start the simulation and the spawn the rover in the gazebo world ```roslaunch rover rover.launch```
 6. 
 
-# Team 
+## Group 10
 1. Pushkar Patel B20121
 2. Om Kshatriya B20209
+
+    Instructor Dr. Radhe Shyam Sharma
+    TA: Mr. Yogesh Namdeo Dasgaonkar
 
 # Objectives 
 - [x] Create environment
