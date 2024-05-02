@@ -10,6 +10,7 @@ Gazebo and ROS simulation of Mars Rover, Reach marker and fetch
 
 2. Install gazebo ```curl -sSL http://get.gazebosim.org | sh ```
 3. Install available ros-controllers ```sudo apt install ros-*controller*```
+4. Activate the ros environment by ```source /opt/ros/noetic/setup.bash```
 4. cd in the folder and run ```cmake .```
 6. run the setup file ```source devel/setup.bash```
 7. To start the simulation and the spawn the rover in the gazebo world ```roslaunch rover rover.launch```
