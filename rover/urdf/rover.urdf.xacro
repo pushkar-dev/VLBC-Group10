@@ -7,6 +7,7 @@
   <xacro:include filename="$(find rover)/urdf/Gripper.urdf" />
   <xacro:include filename="$(find rover)/urdf/camera.urdf" />
 
+
   <joint name="arn_base_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.15 0.395 0.063"/>
     <parent link="base_link"/>
@@ -59,6 +60,7 @@
   <gazebo reference="camera">
     <sensor type="camera" name="camer_sensor">
       <update_rate>30.0</update_rate>
+      <visualize>true</visualize>
       <camera name="head">
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>

@@ -47,7 +47,7 @@ if __name__=="__main__":
 
 	vel_msg = Twist()
 	r = rospy.Rate(10)
-
+	print("press q to quit")
 	try:
 		while(1):
 			key = getKey()
@@ -78,7 +78,7 @@ if __name__=="__main__":
 				pub_move.publish(0) 
 
 			elif key == 'q':
-				break 
+				exit()
 
 			else :
 				front_left.publish(0) 
