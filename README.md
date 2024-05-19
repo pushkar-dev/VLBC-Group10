@@ -27,7 +27,8 @@ Gazebo and ROS simulation of Mars Rover, Reach marker and fetch
 - [x] Create environment
 - [x] Simulate rover movement and Actions
 - [x] Add camera and subcribe to feed
-- [ ] Design IBVS Control for rover
+- [x] Design IBVS Control for rover
+- [ ] Integrate IBVS cnotrol in the simulation environment 
 - [ ] Simulation of autonomous rover
  
 
