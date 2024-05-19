@@ -88,10 +88,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>44 516000000</sim_time>
-      <real_time>17 482209726</real_time>
-      <wall_time>1714677651 16859257</wall_time>
-      <iterations>13367</iterations>
+      <sim_time>374 467000000</sim_time>
+      <real_time>425 534284295</real_time>
+      <wall_time>1716117023 728580815</wall_time>
+      <iterations>329951</iterations>
       <model name='gale_small'>
         <pose>0.565701 -1.97239 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -118,7 +118,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>22.7963 -22.4085 8.82287 0 0.275643 2.35619</pose>
+        <pose>11.938 -11.2536 4.43266 0 0.275643 2.35619</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
